@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventHub - Gallery | Premier Event Management Services</title>
+    <meta name="description" content="Browse our event gallery showcasing memorable moments from corporate events, weddings, concerts, and celebrations.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gallery-animations-enhanced.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-calendar-star"></i>
+                    <span>EventHub</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="home.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Gallery Hero Section -->
+    <section class="gallery-hero">
+        <div class="hero-bg-animation">
+            <div class="gallery-shape shape-1"></div>
+            <div class="gallery-shape shape-2"></div>
+            <div class="gallery-shape shape-3"></div>
+            <div class="gallery-shape shape-4"></div>
+        </div>
+        <div class="container">
+            <h1 class="page-title">Event Gallery</h1>
+            <p class="page-subtitle">Memorable moments from our past events and celebrations</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Events</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+                <button class="filter-btn" data-filter="wedding">Weddings</button>
+                <button class="filter-btn" data-filter="concert">Concerts</button>
+                <button class="filter-btn" data-filter="social">Social</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Gallery Grid -->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="corporate">
+                    <img src="https://picsum.photos/seed/corporate1/400/300.jpg" alt="Corporate Event">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Corporate Gala Dinner</h4>
+                            <p>Annual company celebration with 500+ attendees</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Dec 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Grand Hotel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://picsum.photos/seed/wedding1/400/300.jpg" alt="Wedding">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Garden Wedding</h4>
+                            <p>Romantic outdoor ceremony for Sarah & John</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Nov 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Rose Garden</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="social">
+                    <img src="https://picsum.photos/seed/birthday1/400/300.jpg" alt="Birthday Party">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>50th Birthday Celebration</h4>
+                            <p>Golden jubilee party with family and friends</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Oct 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Beach Resort</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="concert">
+                    <img src="https://picsum.photos/seed/concert1/400/300.jpg" alt="Concert">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Summer Music Concert</h4>
+                            <p>Live band performance under the stars</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Sep 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Amphitheater</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="corporate">
+                    <img src="https://picsum.photos/seed/conference1/400/300.jpg" alt="Conference">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Tech Conference</h4>
+                            <p>Innovation and networking summit</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Aug 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Convention Center</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="social">
+                    <img src="https://picsum.photos/seed/festival1/400/300.jpg" alt="Festival">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Cultural Festival</h4>
+                            <p>Traditional celebrations and performances</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Jul 2023</span>
+                                <span><i class="fas fa-map-marker"></i> City Park</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://picsum.photos/seed/wedding2/400/300.jpg" alt="Wedding">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Beach Wedding</h4>
+                            <p>Tropical destination wedding ceremony</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Jun 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Paradise Beach</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="concert">
+                    <img src="https://picsum.photos/seed/jazz1/400/300.jpg" alt="Jazz Concert">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Jazz Night</h4>
+                            <p>Intimate jazz evening with renowned artists</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> May 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Jazz Club</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="corporate">
+                    <img src="https://picsum.photos/seed/product1/400/300.jpg" alt="Product Launch">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Product Launch</h4>
+                            <p>New product unveiling event</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Apr 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Tech Hub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="social">
+                    <img src="https://picsum.photos/seed/anniversary1/400/300.jpg" alt="Anniversary">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>25th Anniversary</h4>
+                            <p>Silver jubilee celebration party</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Mar 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Ballroom</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="concert">
+                    <img src="https://picsum.photos/seed/festival2/400/300.jpg" alt="Music Festival">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Music Festival</h4>
+                            <p>Three-day outdoor music celebration</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Feb 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Festival Grounds</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://picsum.photos/seed/wedding3/400/300.jpg" alt="Wedding Reception">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Wedding Reception</h4>
+                            <p>Elegant evening reception celebration</p>
+                            <div class="overlay-meta">
+                                <span><i class="fas fa-calendar"></i> Jan 2023</span>
+                                <span><i class="fas fa-map-marker"></i> Luxury Hotel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Events Section -->
+    <section class="featured-events">
+        <div class="container">
+            <h2 class="section-title">Featured Events</h2>
+            <p class="section-subtitle">Highlight moments from our most memorable celebrations</p>
+            
+            <div class="featured-slider">
+                <div class="featured-slide">
+                    <img src="https://picsum.photos/seed/featured1/800/400.jpg" alt="Featured Event">
+                    <div class="featured-content">
+                        <h3>Annual Charity Gala 2023</h3>
+                        <p>An unforgettable evening raising funds for local charities, featuring celebrity guests and live performances.</p>
+                        <div class="featured-stats">
+                            <span><i class="fas fa-users"></i> 1000+ Guests</span>
+                            <span><i class="fas fa-dollar-sign"></i> $50K Raised</span>
+                            <span><i class="fas fa-star"></i> 5.0 Rating</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="featured-slide">
+                    <img src="https://picsum.photos/seed/featured2/800/400.jpg" alt="Featured Event">
+                    <div class="featured-content">
+                        <h3>Summer Music Festival</h3>
+                        <p>Three-day music extravaganza featuring international artists and local talent across multiple stages.</p>
+                        <div class="featured-stats">
+                            <span><i class="fas fa-users"></i> 15,000+ Fans</span>
+                            <span><i class="fas fa-music"></i> 50+ Artists</span>
+                            <span><i class="fas fa-star"></i> 4.9 Rating</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="featured-slide">
+                    <img src="https://picsum.photos/seed/featured3/800/400.jpg" alt="Featured Event">
+                    <div class="featured-content">
+                        <h3>Tech Innovation Summit</h3>
+                        <p>Premier technology conference bringing together industry leaders and innovators from around the world.</p>
+                        <div class="featured-stats">
+                            <span><i class="fas fa-users"></i> 2,000+ Attendees</span>
+                            <span><i class="fas fa-microphone"></i> 100+ Speakers</span>
+                            <span><i class="fas fa-star"></i> 4.8 Rating</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Stats -->
+    <section class="gallery-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="stat-number" data-target="5000">0</div>
+                    <div class="stat-label">Photos Captured</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="stat-number" data-target="200">0</div>
+                    <div class="stat-label">Videos Produced</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Events Covered</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="stat-number" data-target="50000">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-calendar-star"></i>
+                        <span>EventHub</span>
+                    </div>
+                    <p>Creating unforgettable moments and extraordinary experiences since 2010.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Gallery Categories</h4>
+                    <ul>
+                        <li><a href="#">Corporate Events</a></li>
+                        <li><a href="#">Weddings</a></li>
+                        <li><a href="#">Concerts</a></li>
+                        <li><a href="#">Social Events</a></li>
+                        <li><a href="#">All Photos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get updates on upcoming events and exclusive offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 EventHub. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="gallery-minimal.js"></script>
+</body>
+</html>
