@@ -6,7 +6,7 @@
     <title>EventHub - Events | Premier Event Management Services</title>
     <meta name="description" content="Join our exciting upcoming events and celebrations. Music festivals, tech conferences, food festivals and more.">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="events-animations-enhanced.css">
+    <link rel="stylesheet" href="events-ultimate.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
@@ -39,199 +39,159 @@
 
     <!-- Events Hero Section -->
     <section class="events-hero">
-        <div class="hero-particles">
-            <div class="event-particle"></div>
-            <div class="event-particle"></div>
-            <div class="event-particle"></div>
-            <div class="event-particle"></div>
-            <div class="event-particle"></div>
-            <div class="event-particle"></div>
-        </div>
         <div class="container">
             <h1 class="page-title">Upcoming Events</h1>
-            <p class="page-subtitle">Join our exciting upcoming events and celebrations</p>
+            <p class="page-subtitle">Join our exciting events and create unforgettable memories</p>
         </div>
     </section>
 
-    <!-- Events Filter -->
+    <!-- Filter Section -->
     <section class="events-filter">
         <div class="container">
             <div class="filter-buttons">
                 <button class="filter-btn active" data-filter="all">All Events</button>
-                <button class="filter-btn" data-filter="music">Music</button>
-                <button class="filter-btn" data-filter="tech">Technology</button>
-                <button class="filter-btn" data-filter="food">Food & Drink</button>
                 <button class="filter-btn" data-filter="corporate">Corporate</button>
+                <button class="filter-btn" data-filter="social">Social</button>
+                <button class="filter-btn" data-filter="concert">Concert</button>
+                <button class="filter-btn" data-filter="festival">Festival</button>
             </div>
         </div>
     </section>
 
-    <!-- Events Timeline -->
+    <!-- Events Section -->
     <section class="events">
         <div class="container">
             <div class="events-timeline">
-                <div class="event-item" data-category="music">
+                <div class="event-item" data-category="corporate">
                     <div class="event-date">
                         <span class="day">15</span>
                         <span class="month">MAR</span>
                     </div>
                     <div class="event-content">
-                        <div class="event-badge">Music</div>
+                        <span class="event-badge">Corporate</span>
                         <h3>Spring Music Festival</h3>
                         <p><i class="fas fa-map-marker-alt"></i> Central Park Amphitheater</p>
                         <p><i class="fas fa-clock"></i> 6:00 PM - 11:00 PM</p>
-                        <p><i class="fas fa-users"></i> Expected: 5000+ attendees</p>
                         <div class="event-tags">
-                            <span class="tag">Live Music</span>
+                            <span class="tag">Music</span>
                             <span class="tag">Outdoor</span>
-                            <span class="tag">Family Friendly</span>
-                        </div>
-                        <a href="contact.html" class="btn btn-primary">Book Tickets</a>
-                    </div>
-                </div>
-                
-                <div class="event-item" data-category="tech">
-                    <div class="event-date">
-                        <span class="day">22</span>
-                        <span class="month">MAR</span>
-                    </div>
-                    <div class="event-content">
-                        <div class="event-badge">Technology</div>
-                        <h3>Tech Innovation Summit</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> Convention Center Hall A</p>
-                        <p><i class="fas fa-clock"></i> 9:00 AM - 6:00 PM</p>
-                        <p><i class="fas fa-users"></i> Expected: 1000+ attendees</p>
-                        <div class="event-tags">
-                            <span class="tag">Conference</span>
                             <span class="tag">Networking</span>
-                            <span class="tag">Innovation</span>
                         </div>
-                        <a href="contact.html" class="btn btn-primary">Register Now</a>
-                    </div>
-                </div>
-                
-                <div class="event-item" data-category="food">
-                    <div class="event-date">
-                        <span class="day">05</span>
-                        <span class="month">APR</span>
-                    </div>
-                    <div class="event-content">
-                        <div class="event-badge">Food & Drink</div>
-                        <h3>Food & Wine Festival</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> Riverside Gardens</p>
-                        <p><i class="fas fa-clock"></i> 12:00 PM - 8:00 PM</p>
-                        <p><i class="fas fa-users"></i> Expected: 3000+ attendees</p>
-                        <div class="event-tags">
-                            <span class="tag">Tasting</span>
-                            <span class="tag">Local Vendors</span>
-                            <span class="tag">Outdoor</span>
-                        </div>
-                        <a href="contact.html" class="btn btn-primary">Get Tickets</a>
+                        <a href="contact.html" class="btn">Book Tickets</a>
                     </div>
                 </div>
                 
                 <div class="event-item" data-category="corporate">
                     <div class="event-date">
-                        <span class="day">18</span>
-                        <span class="month">APR</span>
+                        <span class="day">22</span>
+                        <span class="month">MAR</span>
                     </div>
                     <div class="event-content">
-                        <div class="event-badge">Corporate</div>
-                        <h3>Annual Business Gala</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> Grand Ballroom Hotel</p>
-                        <p><i class="fas fa-clock"></i> 7:00 PM - 1:00 AM</p>
-                        <p><i class="fas fa-users"></i> Expected: 500+ attendees</p>
+                        <span class="event-badge">Corporate</span>
+                        <h3>Tech Innovation Summit</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Convention Center Hall A</p>
+                        <p><i class="fas fa-clock"></i> 9:00 AM - 6:00 PM</p>
                         <div class="event-tags">
-                            <span class="tag">Formal</span>
-                            <span class="tag">Networking</span>
-                            <span class="tag">Awards</span>
+                            <span class="tag">Technology</span>
+                            <span class="tag">Conference</span>
+                            <span class="tag">Innovation</span>
                         </div>
-                        <a href="contact.html" class="btn btn-primary">RSVP Now</a>
+                        <a href="contact.html" class="btn">Register Now</a>
                     </div>
                 </div>
                 
-                <div class="event-item" data-category="music">
+                <div class="event-item" data-category="festival">
                     <div class="event-date">
-                        <span class="day">30</span>
+                        <span class="day">05</span>
                         <span class="month">APR</span>
                     </div>
                     <div class="event-content">
-                        <div class="event-badge">Music</div>
-                        <h3>Jazz Under the Stars</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> Botanical Gardens</p>
-                        <p><i class="fas fa-clock"></i> 7:30 PM - 11:00 PM</p>
-                        <p><i class="fas fa-users"></i> Expected: 800+ attendees</p>
+                        <span class="event-badge">Festival</span>
+                        <h3>Food & Wine Festival</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Riverside Gardens</p>
+                        <p><i class="fas fa-clock"></i> 12:00 PM - 8:00 PM</p>
                         <div class="event-tags">
-                            <span class="tag">Jazz</span>
-                            <span class="tag">Outdoor</span>
-                            <span class="tag">Romantic</span>
+                            <span class="tag">Food</span>
+                            <span class="tag">Wine</span>
+                            <span class="tag">Tasting</span>
                         </div>
-                        <a href="contact.html" class="btn btn-primary">Book Seats</a>
+                        <a href="contact.html" class="btn">Get Tickets</a>
                     </div>
                 </div>
                 
-                <div class="event-item" data-category="tech">
+                <div class="event-item" data-category="social">
                     <div class="event-date">
                         <span class="day">12</span>
-                        <span class="month">MAY</span>
+                        <span class="month">APR</span>
                     </div>
                     <div class="event-content">
-                        <div class="event-badge">Technology</div>
-                        <h3>AI & Future Tech Expo</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> Tech Center</p>
-                        <p><i class="fas fa-clock"></i> 10:00 AM - 7:00 PM</p>
-                        <p><i class="fas fa-users"></i> Expected: 2000+ attendees</p>
+                        <span class="event-badge">Social</span>
+                        <h3>Easter Celebration</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Community Center</p>
+                        <p><i class="fas fa-clock"></i> 2:00 PM - 6:00 PM</p>
                         <div class="event-tags">
-                            <span class="tag">Exhibition</span>
-                            <span class="tag">Workshops</span>
-                            <span class="tag">Demo</span>
+                            <span class="tag">Family</span>
+                            <span class="tag">Easter</span>
+                            <span class="tag">Activities</span>
                         </div>
-                        <a href="contact.html" class="btn btn-primary">Register</a>
+                        <a href="contact.html" class="btn">Join Event</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Past Events Highlights -->
+    <!-- Past Events Section -->
     <section class="past-events">
         <div class="container">
-            <h2 class="section-title">Past Events Highlights</h2>
-            <p class="section-subtitle">Memorable moments from our previous celebrations</p>
+            <h2 class="section-title">Past Events</h2>
+            <p class="section-subtitle">Memorable moments from our recent celebrations</p>
             
             <div class="past-events-grid">
                 <div class="past-event-card">
-                    <img src="https://picsum.photos/seed/past1/400/250.jpg" alt="Past Event">
+                    <img src="https://picsum.photos/seed/past1/400/300.jpg" alt="New Year Gala">
                     <div class="past-event-info">
-                        <h4>Summer Music Festival 2023</h4>
-                        <p>Over 10,000 attendees enjoyed three days of incredible performances</p>
+                        <h4>New Year Gala 2024</h4>
+                        <p>Spectacular celebration with 500+ guests featuring live entertainment and gourmet dining.</p>
                         <div class="event-stats">
-                            <span><i class="fas fa-users"></i> 10,000+</span>
-                            <span><i class="fas fa-star"></i> 4.9/5</span>
+                            <span><i class="fas fa-users"></i> 500+ Guests</span>
+                            <span><i class="fas fa-star"></i> 5.0 Rating</span>
                         </div>
                     </div>
                 </div>
                 
                 <div class="past-event-card">
-                    <img src="https://picsum.photos/seed/past2/400/250.jpg" alt="Past Event">
+                    <img src="https://picsum.photos/seed/past2/400/300.jpg" alt="Tech Conference">
                     <div class="past-event-info">
-                        <h4>Tech Summit 2023</h4>
-                        <p>Industry leaders shared insights on emerging technologies</p>
+                        <h4>Annual Tech Conference</h4>
+                        <p>Three-day technology conference featuring keynote speakers and workshops.</p>
                         <div class="event-stats">
-                            <span><i class="fas fa-users"></i> 1,500+</span>
-                            <span><i class="fas fa-star"></i> 4.8/5</span>
+                            <span><i class="fas fa-users"></i> 2,000+ Attendees</span>
+                            <span><i class="fas fa-microphone"></i> 50+ Speakers</span>
                         </div>
                     </div>
                 </div>
                 
                 <div class="past-event-card">
-                    <img src="https://picsum.photos/seed/past3/400/250.jpg" alt="Past Event">
+                    <img src="https://picsum.photos/seed/past3/400/300.jpg" alt="Summer Concert">
                     <div class="past-event-info">
-                        <h4>Wine & Food Festival 2023</h4>
-                        <p>50+ vendors showcased their finest culinary creations</p>
+                        <h4>Summer Music Concert</h4>
+                        <p>Outdoor music festival with international artists and food vendors.</p>
                         <div class="event-stats">
-                            <span><i class="fas fa-users"></i> 5,000+</span>
-                            <span><i class="fas fa-star"></i> 4.9/5</span>
+                            <span><i class="fas fa-users"></i> 15,000+ Fans</span>
+                            <span><i class="fas fa-music"></i> 30+ Artists</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="past-event-card">
+                    <img src="https://picsum.photos/seed/past4/400/300.jpg" alt="Charity Ball">
+                    <div class="past-event-info">
+                        <h4>Charity Fundraiser Ball</h4>
+                        <p>Elegant evening raising funds for local charities with auction and dinner.</p>
+                        <div class="event-stats">
+                            <span><i class="fas fa-dollar-sign"></i> $50K Raised</span>
+                            <span><i class="fas fa-heart"></i> 300+ Donors</span>
                         </div>
                     </div>
                 </div>
@@ -239,29 +199,35 @@
         </div>
     </section>
 
-    <!-- Event Countdown -->
+    <!-- Countdown Section -->
     <section class="countdown-section">
         <div class="container">
-            <h2 class="section-title">Next Event Starts In</h2>
+            <h2 class="section-title">Next Event Countdown</h2>
+            <p class="section-subtitle">Get ready for our upcoming Spring Music Festival</p>
+            
             <div class="countdown-timer">
                 <div class="countdown-item">
                     <div class="countdown-number" id="days">00</div>
                     <div class="countdown-label">Days</div>
                 </div>
+                
                 <div class="countdown-item">
                     <div class="countdown-number" id="hours">00</div>
                     <div class="countdown-label">Hours</div>
                 </div>
+                
                 <div class="countdown-item">
                     <div class="countdown-number" id="minutes">00</div>
                     <div class="countdown-label">Minutes</div>
                 </div>
+                
                 <div class="countdown-item">
                     <div class="countdown-number" id="seconds">00</div>
                     <div class="countdown-label">Seconds</div>
                 </div>
             </div>
-            <p class="next-event-name">Spring Music Festival - March 15, 2024</p>
+            
+            <h3 class="next-event-name">Spring Music Festival - March 15, 2024</h3>
         </div>
     </section>
 
@@ -289,13 +255,13 @@
                 </div>
                 
                 <div class="footer-section">
-                    <h4>Event Categories</h4>
+                    <h4>Event Types</h4>
                     <ul>
-                        <li><a href="#">Music Events</a></li>
-                        <li><a href="#">Tech Conferences</a></li>
-                        <li><a href="#">Food Festivals</a></li>
-                        <li><a href="#">Corporate Events</a></li>
-                        <li><a href="#">Social Gatherings</a></li>
+                        <li><a href="events.html">Corporate Events</a></li>
+                        <li><a href="events.html">Social Events</a></li>
+                        <li><a href="events.html">Concerts</a></li>
+                        <li><a href="events.html">Festivals</a></li>
+                        <li><a href="events.html">Private Parties</a></li>
                     </ul>
                 </div>
                 
@@ -314,7 +280,5 @@
             </div>
         </div>
     </footer>
-
-    <script src="events-minimal.js"></script>
 </body>
 </html>
