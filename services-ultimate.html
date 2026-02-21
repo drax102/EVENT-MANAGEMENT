@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EventHub - Services | Premier Event Management Services</title>
-    <meta name="description" content="Professional event management services including corporate events, weddings, social events, concerts, and more.">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="services-ultimate.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>Drax Events - Our Services</title>
+    <!-- Fonts and Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="services-ultimate.css">
+
+    <!-- JS -->
+    <script src="main.js" defer></script>
 </head>
+
 <body>
-    <!-- Header with Navigation -->
+
+    <div class="ambient-glow"></div>
+
+    <!-- Header / Navbar -->
     <header class="header">
         <nav class="navbar">
             <div class="nav-container">
-                <div class="logo">
-                    <i class="fas fa-calendar-star"></i>
-                    <span>EventHub</span>
-                </div>
+                <a href="home-ultimate.html" class="logo">
+                    <i class="fas fa-gem"></i>
+                    <span>Drax Events</span>
+                </a>
+
                 <ul class="nav-menu">
-                    <li><a href="home.html" class="nav-link">Home</a></li>
-                    <li><a href="services.html" class="nav-link active">Services</a></li>
-                    <li><a href="events.html" class="nav-link">Events</a></li>
-                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="home-ultimate.html" class="nav-link">Home</a></li>
+                    <li><a href="services-ultimate.html" class="nav-link active">Services</a></li>
+                    <li><a href="events-ultimate.html" class="nav-link">Events</a></li>
+                    <li><a href="gallery-ultimate.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact-ultimate.html" class="nav-link">Contact</a></li>
                 </ul>
+
                 <div class="hamburger">
                     <span></span>
                     <span></span>
@@ -38,252 +47,173 @@
     </header>
 
     <!-- Services Hero Section -->
-    <section class="services-hero">
+    <section class="services-hero reveal">
         <div class="container">
-            <h1 class="page-title">Our Services</h1>
-            <p class="page-subtitle">Comprehensive event planning and management solutions tailored to your needs</p>
+            <h1 class="page-title text-gradient">Masterclass Productions</h1>
+            <p class="section-subtitle" style="color: #fff;">Comprehensive, state-of-the-art event solutions tailored to
+                perfection.</p>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services">
-        <div class="container">
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Corporate Events</h3>
-                    <p>Professional planning for conferences, seminars, and corporate gatherings with attention to detail and brand alignment.</p>
-                    <ul class="service-features">
-                        <li>✨ Venue selection and setup</li>
-                        <li>✨ Audio-visual equipment</li>
-                        <li>✨ Catering coordination</li>
-                        <li>✨ Brand integration</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Get Quote</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3>Weddings</h3>
-                    <p>Make your special day magical with our comprehensive wedding planning and coordination services.</p>
-                    <ul class="service-features">
-                        <li>✨ Venue decoration</li>
-                        <li>✨ Photography & videography</li>
-                        <li>✨ Catering services</li>
-                        <li>✨ Guest management</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Plan Wedding</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-gift"></i>
-                    </div>
-                    <h3>Social Events</h3>
-                    <p>Birthday parties, anniversaries, and social gatherings planned to perfection.</p>
-                    <ul class="service-features">
-                        <li>✨ Theme development</li>
-                        <li>✨ Entertainment booking</li>
-                        <li>✨ Decoration design</li>
-                        <li>✨ Guest coordination</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Book Event</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-microphone"></i>
-                    </div>
-                    <h3>Concerts & Shows</h3>
-                    <p>End-to-end event production for concerts, performances, and entertainment shows.</p>
-                    <ul class="service-features">
-                        <li>✨ Stage management</li>
-                        <li>✨ Sound engineering</li>
-                        <li>✨ Lighting design</li>
-                        <li>✨ Artist coordination</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Book Show</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h3>Educational Events</h3>
-                    <p>Workshops, seminars, and educational programs with professional coordination.</p>
-                    <ul class="service-features">
-                        <li>✨ Speaker management</li>
-                        <li>✨ Material preparation</li>
-                        <li>✨ Registration handling</li>
-                        <li>✨ Technical support</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Organize Event</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-palette"></i>
-                    </div>
-                    <h3>Theme Parties</h3>
-                    <p>Creative themed events with unique concepts and immersive experiences.</p>
-                    <ul class="service-features">
-                        <li>✨ Custom themes</li>
-                        <li>✨ Immersive decor</li>
-                        <li>✨ Themed entertainment</li>
-                        <li>✨ Costume coordination</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Create Theme</a>
-                </div>
+    <!-- Services Overview -->
+    <section class="services-overview container">
+
+        <!-- Corporate Event Service -->
+        <div class="service-block reveal">
+            <div class="s-image">
+                <img src="./assets/images/corporate_app_event.png" alt="Corporate Events">
+            </div>
+            <div class="s-content">
+                <h2 class="s-title">Global Corporate Summits</h2>
+                <p class="s-desc">Elevate your brand with highly professional, technologically advanced corporate
+                    events. From keynote stages with ultra-wide LED displays to interactive networking zones designed to
+                    foster high-value connections.</p>
+                <ul class="s-features">
+                    <li><i class="fas fa-check"></i> Advanced A/V Production</li>
+                    <li><i class="fas fa-check"></i> Custom Stage Design</li>
+                    <li><i class="fas fa-check"></i> VIP Hospitality Logistics</li>
+                    <li><i class="fas fa-check"></i> Interactive Tech Displays</li>
+                </ul>
+                <a href="contact-ultimate.html" class="btn btn-outline" style="margin-top: 2rem;">Inquire Corporate <i
+                        class="fas fa-arrow-right" style="margin-left: 10px;"></i></a>
             </div>
         </div>
+
+        <!-- Wedding Service -->
+        <div class="service-block reveal">
+            <div class="s-image">
+                <img src="./assets/images/wedding_event.png" alt="Luxury Weddings">
+            </div>
+            <div class="s-content">
+                <h2 class="s-title">Cinematic Luxury Weddings</h2>
+                <p class="s-desc">Your masterpiece romance deserves a flawless backdrop. We specialize in producing
+                    emotionally resonant, highly cinematic wedding experiences featuring breathtaking floral
+                    arrangements, moody ambient lighting, and world-class culinary curation.</p>
+                <ul class="s-features">
+                    <li><i class="fas fa-heart"></i> Elite Venue Scouting</li>
+                    <li><i class="fas fa-heart"></i> Immersive Lighting Design</li>
+                    <li><i class="fas fa-heart"></i> Bespoke Floral Styling</li>
+                    <li><i class="fas fa-heart"></i> Comprehensive Coordination</li>
+                </ul>
+                <a href="contact-ultimate.html" class="btn btn-primary btn-glow" style="margin-top: 2rem;">Plan Your
+                    Dream Day <i class="fas fa-arrow-right" style="margin-left: 10px;"></i></a>
+            </div>
+        </div>
+
+        <!-- Concert Service -->
+        <div class="service-block reveal">
+            <div class="s-image">
+                <img src="./assets/images/concert_event.png" alt="Live Concerts">
+            </div>
+            <div class="s-content">
+                <h2 class="s-title">Epic Live Entertainment</h2>
+                <p class="s-desc">From private exclusive showcases to massive electronic music festivals. We deliver
+                    intense, heart-pounding productions engineered for perfect acoustics and mind-bending visual laser
+                    shows that command the crowd's energy.</p>
+                <ul class="s-features">
+                    <li><i class="fas fa-bolt"></i> Massive Stage Rigging</li>
+                    <li><i class="fas fa-bolt"></i> Neon & Laser VFX</li>
+                    <li><i class="fas fa-bolt"></i> Talent Booking & Mgmt</li>
+                    <li><i class="fas fa-bolt"></i> Elite Security Logistics</li>
+                </ul>
+                <a href="contact-ultimate.html" class="btn btn-outline" style="margin-top: 2rem;">Book a Production <i
+                        class="fas fa-arrow-right" style="margin-left: 10px;"></i></a>
+            </div>
+        </div>
+
     </section>
 
     <!-- Process Section -->
-    <section class="process">
+    <section class="process-section reveal">
         <div class="container">
-            <h2 class="section-title">Our Process</h2>
-            <p class="section-subtitle">Simple steps to create your perfect event</p>
-            
-            <div class="process-timeline">
-                <div class="process-step">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>Consultation</h3>
-                        <p>We meet with you to understand your vision, requirements, and budget.</p>
-                    </div>
-                </div>
-                
-                <div class="process-step">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>Planning</h3>
-                        <p>Our team creates a detailed plan covering all aspects of your event.</p>
-                    </div>
-                </div>
-                
-                <div class="process-step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>Execution</h3>
-                        <p>We bring your vision to life with flawless execution and on-site management.</p>
-                    </div>
-                </div>
-                
-                <div class="process-step">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h3>Success</h3>
-                        <p>Your event runs smoothly, leaving you and your guests with lasting memories.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <h2 class="section-title text-gradient-2">Our Workflow</h2>
+            <p class="section-subtitle">A seamless process designed to take you from vision to flawless execution.</p>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">Client Testimonials</h2>
-            <p class="section-subtitle">What our clients say about our services</p>
-            
-            <div class="testimonials-slider">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <i class="fas fa-quote-left"></i>
-                        <p>EventHub transformed our corporate gala into an unforgettable experience. Their attention to detail and creativity exceeded all our expectations.</p>
-                        <div class="testimonial-author">
-                            <img src="https://picsum.photos/seed/client1/70/70.jpg" alt="Sarah Johnson">
-                            <div>
-                                <h4>Sarah Johnson</h4>
-                                <span>CEO, TechCorp</span>
-                            </div>
-                        </div>
-                    </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="p-number">1</div>
+                    <br>
+                    <h4>Discovery & Vision</h4>
+                    <p>We work intimately with you to uncover the aesthetic, goals, and emotional core of your event.
+                    </p>
                 </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <i class="fas fa-quote-left"></i>
-                        <p>Our wedding was absolutely perfect! EventHub handled everything flawlessly, allowing us to enjoy our special day stress-free.</p>
-                        <div class="testimonial-author">
-                            <img src="https://picsum.photos/seed/client2/70/70.jpg" alt="Michael Chen">
-                            <div>
-                                <h4>Michael Chen</h4>
-                                <span>Marketing Director</span>
-                            </div>
-                        </div>
-                    </div>
+
+                <div class="process-step">
+                    <div class="p-number">2</div>
+                    <br>
+                    <h4>Architectural Design</h4>
+                    <p>Our team develops full 3D renders, mood boards, and logistical blueprints for your approval.</p>
                 </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <i class="fas fa-quote-left"></i>
-                        <p>Professional, creative, and reliable. EventHub made our product launch a massive success!</p>
-                        <div class="testimonial-author">
-                            <img src="https://picsum.photos/seed/client3/70/70.jpg" alt="Emily Davis">
-                            <div>
-                                <h4>Emily Davis</h4>
-                                <span>Event Coordinator</span>
-                            </div>
-                        </div>
-                    </div>
+
+                <div class="process-step">
+                    <div class="p-number">3</div>
+                    <br>
+                    <h4>Seamless Production</h4>
+                    <p>We source the finest vendors, construct the stage, and orchestrate the timeline with precision.
+                    </p>
+                </div>
+
+                <div class="process-step">
+                    <div class="p-number">4</div>
+                    <br>
+                    <h4>The Flawless Drop</h4>
+                    <p>The day of the event, our directors manage every pulse, movement, and light cue in real-time.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer reveal">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <i class="fas fa-calendar-star"></i>
-                        <span>EventHub</span>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="home-ultimate.html" class="logo">
+                        <i class="fas fa-gem"></i>
+                        <span>Drax Events</span>
+                    </a>
+                    <p class="footer-desc">Setting the global standard for luxury and immersive event experiences. Let's
+                        make history together.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <p>Creating unforgettable moments and extraordinary experiences since 2010.</p>
                 </div>
-                
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                <div>
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="home-ultimate.html">Home</a></li>
+                        <li><a href="services-ultimate.html">Services</a></li>
+                        <li><a href="gallery-ultimate.html">Gallery</a></li>
+                        <li><a href="contact-ultimate.html">Contact Us</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="services.html">Corporate Events</a></li>
-                        <li><a href="services.html">Weddings</a></li>
-                        <li><a href="services.html">Social Events</a></li>
-                        <li><a href="services.html">Concerts</a></li>
-                        <li><a href="services.html">Theme Parties</a></li>
+                <div>
+                    <h4 class="footer-title">Experiences</h4>
+                    <ul class="footer-links">
+                        <li><a href="events-ultimate.html">Global Summits</a></li>
+                        <li><a href="events-ultimate.html">Luxury Weddings</a></li>
+                        <li><a href="events-ultimate.html">Live Music</a></li>
+                        <li><a href="events-ultimate.html">Exclusive Galas</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-section">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe to get updates on upcoming events and exclusive offers.</p>
+                <div>
+                    <h4 class="footer-title">Stay Updated</h4>
+                    <p style="color: var(--text-muted); margin-bottom: 1rem; font-size: 0.95rem;">Join our exclusive
+                        list for VIP access and news.</p>
                     <form class="newsletter-form">
-                        <input type="email" placeholder="Your email address" required>
-                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        <input type="email" placeholder="Enter your email..." required class="newsletter-input">
+                        <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
                     </form>
                 </div>
             </div>
-            
             <div class="footer-bottom">
-                <p>&copy; 2024 EventHub. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <p>&copy; 2026 Drax Event Management. All rights reserved. | Built with elegance.</p>
             </div>
         </div>
     </footer>
+
 </body>
+
 </html>

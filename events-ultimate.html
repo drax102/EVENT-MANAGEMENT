@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EventHub - Events | Premier Event Management Services</title>
-    <meta name="description" content="Join our exciting upcoming events and celebrations. Music festivals, tech conferences, food festivals and more.">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="events-ultimate.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>Drax Events - Upcoming Events</title>
+    <!-- Fonts and Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="events-ultimate.css">
+
+    <!-- JS -->
+    <script src="main.js" defer></script>
 </head>
+
 <body>
-    <!-- Header with Navigation -->
+
+    <div class="ambient-glow"></div>
+
+    <!-- Header / Navbar -->
     <header class="header">
         <nav class="navbar">
             <div class="nav-container">
-                <div class="logo">
-                    <i class="fas fa-calendar-star"></i>
-                    <span>EventHub</span>
-                </div>
+                <a href="home-ultimate.html" class="logo">
+                    <i class="fas fa-gem"></i>
+                    <span>Drax Events</span>
+                </a>
+
                 <ul class="nav-menu">
-                    <li><a href="home.html" class="nav-link">Home</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
-                    <li><a href="events.html" class="nav-link active">Events</a></li>
-                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="home-ultimate.html" class="nav-link">Home</a></li>
+                    <li><a href="services-ultimate.html" class="nav-link">Services</a></li>
+                    <li><a href="events-ultimate.html" class="nav-link active">Events</a></li>
+                    <li><a href="gallery-ultimate.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact-ultimate.html" class="nav-link">Contact</a></li>
                 </ul>
+
                 <div class="hamburger">
                     <span></span>
                     <span></span>
@@ -38,247 +47,177 @@
     </header>
 
     <!-- Events Hero Section -->
-    <section class="events-hero">
+    <section class="events-hero reveal">
         <div class="container">
-            <h1 class="page-title">Upcoming Events</h1>
-            <p class="page-subtitle">Join our exciting events and create unforgettable memories</p>
+            <h1 class="page-title text-gradient">The Main Stage</h1>
+            <p class="section-subtitle" style="color: #fff;">Join our upcoming landmark events and immersive productions
+                designed for global audiences.</p>
         </div>
     </section>
 
     <!-- Filter Section -->
-    <section class="events-filter">
+    <section class="filter-section">
         <div class="container">
             <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">All Events</button>
-                <button class="filter-btn" data-filter="corporate">Corporate</button>
-                <button class="filter-btn" data-filter="social">Social</button>
-                <button class="filter-btn" data-filter="concert">Concert</button>
-                <button class="filter-btn" data-filter="festival">Festival</button>
+                <button class="filter-btn active" data-filter="all">All Access</button>
+                <button class="filter-btn" data-filter="corporate">Global Summits</button>
+                <button class="filter-btn" data-filter="concert">Live Music</button>
+                <button class="filter-btn" data-filter="gala">Exclusive Galas</button>
             </div>
         </div>
     </section>
 
     <!-- Events Section -->
-    <section class="events">
+    <section class="events-timeline">
         <div class="container">
-            <div class="events-timeline">
-                <div class="event-item" data-category="corporate">
-                    <div class="event-date">
-                        <span class="day">15</span>
-                        <span class="month">MAR</span>
-                    </div>
-                    <div class="event-content">
-                        <span class="event-badge">Corporate</span>
-                        <h3>Spring Music Festival</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> Central Park Amphitheater</p>
-                        <p><i class="fas fa-clock"></i> 6:00 PM - 11:00 PM</p>
-                        <div class="event-tags">
-                            <span class="tag">Music</span>
-                            <span class="tag">Outdoor</span>
-                            <span class="tag">Networking</span>
-                        </div>
-                        <a href="contact.html" class="btn">Book Tickets</a>
-                    </div>
-                </div>
-                
-                <div class="event-item" data-category="corporate">
-                    <div class="event-date">
-                        <span class="day">22</span>
-                        <span class="month">MAR</span>
-                    </div>
-                    <div class="event-content">
-                        <span class="event-badge">Corporate</span>
-                        <h3>Tech Innovation Summit</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> Convention Center Hall A</p>
-                        <p><i class="fas fa-clock"></i> 9:00 AM - 6:00 PM</p>
-                        <div class="event-tags">
-                            <span class="tag">Technology</span>
-                            <span class="tag">Conference</span>
-                            <span class="tag">Innovation</span>
-                        </div>
-                        <a href="contact.html" class="btn">Register Now</a>
-                    </div>
-                </div>
-                
-                <div class="event-item" data-category="festival">
-                    <div class="event-date">
-                        <span class="day">05</span>
-                        <span class="month">APR</span>
-                    </div>
-                    <div class="event-content">
-                        <span class="event-badge">Festival</span>
-                        <h3>Food & Wine Festival</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> Riverside Gardens</p>
-                        <p><i class="fas fa-clock"></i> 12:00 PM - 8:00 PM</p>
-                        <div class="event-tags">
-                            <span class="tag">Food</span>
-                            <span class="tag">Wine</span>
-                            <span class="tag">Tasting</span>
-                        </div>
-                        <a href="contact.html" class="btn">Get Tickets</a>
-                    </div>
-                </div>
-                
-                <div class="event-item" data-category="social">
-                    <div class="event-date">
-                        <span class="day">12</span>
-                        <span class="month">APR</span>
-                    </div>
-                    <div class="event-content">
-                        <span class="event-badge">Social</span>
-                        <h3>Easter Celebration</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> Community Center</p>
-                        <p><i class="fas fa-clock"></i> 2:00 PM - 6:00 PM</p>
-                        <div class="event-tags">
-                            <span class="tag">Family</span>
-                            <span class="tag">Easter</span>
-                            <span class="tag">Activities</span>
-                        </div>
-                        <a href="contact.html" class="btn">Join Event</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Past Events Section -->
-    <section class="past-events">
-        <div class="container">
-            <h2 class="section-title">Past Events</h2>
-            <p class="section-subtitle">Memorable moments from our recent celebrations</p>
-            
-            <div class="past-events-grid">
-                <div class="past-event-card">
-                    <img src="https://picsum.photos/seed/past1/400/300.jpg" alt="New Year Gala">
-                    <div class="past-event-info">
-                        <h4>New Year Gala 2024</h4>
-                        <p>Spectacular celebration with 500+ guests featuring live entertainment and gourmet dining.</p>
-                        <div class="event-stats">
-                            <span><i class="fas fa-users"></i> 500+ Guests</span>
-                            <span><i class="fas fa-star"></i> 5.0 Rating</span>
-                        </div>
-                    </div>
+            <!-- Event 1 -->
+            <div class="event-card reveal">
+                <div class="event-date">
+                    <span class="e-day">24</span>
+                    <span class="e-month">NOV</span>
                 </div>
-                
-                <div class="past-event-card">
-                    <img src="https://picsum.photos/seed/past2/400/300.jpg" alt="Tech Conference">
-                    <div class="past-event-info">
-                        <h4>Annual Tech Conference</h4>
-                        <p>Three-day technology conference featuring keynote speakers and workshops.</p>
-                        <div class="event-stats">
-                            <span><i class="fas fa-users"></i> 2,000+ Attendees</span>
-                            <span><i class="fas fa-microphone"></i> 50+ Speakers</span>
-                        </div>
+                <div class="event-details">
+                    <span class="event-badge">LIVE MUSIC</span>
+                    <h3 class="event-title">Neon Pulse Electronic Festival</h3>
+                    <div class="event-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> The Grand Amphitheater, NY</span>
+                        <span><i class="fas fa-clock"></i> 9:00 PM - 4:00 AM</span>
                     </div>
-                </div>
-                
-                <div class="past-event-card">
-                    <img src="https://picsum.photos/seed/past3/400/300.jpg" alt="Summer Concert">
-                    <div class="past-event-info">
-                        <h4>Summer Music Concert</h4>
-                        <p>Outdoor music festival with international artists and food vendors.</p>
-                        <div class="event-stats">
-                            <span><i class="fas fa-users"></i> 15,000+ Fans</span>
-                            <span><i class="fas fa-music"></i> 30+ Artists</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="past-event-card">
-                    <img src="https://picsum.photos/seed/past4/400/300.jpg" alt="Charity Ball">
-                    <div class="past-event-info">
-                        <h4>Charity Fundraiser Ball</h4>
-                        <p>Elegant evening raising funds for local charities with auction and dinner.</p>
-                        <div class="event-stats">
-                            <span><i class="fas fa-dollar-sign"></i> $50K Raised</span>
-                            <span><i class="fas fa-heart"></i> 300+ Donors</span>
-                        </div>
-                    </div>
+                    <p class="event-desc">Experience the biggest electronic music gathering of the year, featuring
+                        immersive laser shows, world-class DJs, and VIP lounge access.</p>
+                    <a href="contact-ultimate.html" class="btn btn-outline"
+                        style="border-radius: 50px; padding: 0.8rem 2rem;">Reserve Tickets <i class="fas fa-arrow-right"
+                            style="margin-left: 10px;"></i></a>
                 </div>
             </div>
+
+            <!-- Event 2 -->
+            <div class="event-card reveal">
+                <div class="event-date" style="background: var(--grad-primary);">
+                    <span class="e-day">12</span>
+                    <span class="e-month">DEC</span>
+                </div>
+                <div class="event-details">
+                    <span class="event-badge">GLOBAL SUMMIT</span>
+                    <h3 class="event-title">FutureTech AI Vision Conference</h3>
+                    <div class="event-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Silicon Valley Convention Center</span>
+                        <span><i class="fas fa-clock"></i> 8:00 AM - 6:00 PM</span>
+                    </div>
+                    <p class="event-desc">A premium conference connecting industry leaders, featuring state-of-the-art
+                        stage design, interactive LED floors, and high-end networking.</p>
+                    <a href="contact-ultimate.html" class="btn btn-primary btn-glow"
+                        style="border-radius: 50px; padding: 0.8rem 2rem;">Register Early <i class="fas fa-ticket-alt"
+                            style="margin-left: 10px;"></i></a>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="event-card reveal">
+                <div class="event-date" style="background: linear-gradient(135deg, #050505, #ff2a5f);">
+                    <span class="e-day">31</span>
+                    <span class="e-month">DEC</span>
+                </div>
+                <div class="event-details">
+                    <span class="event-badge">EXCLUSIVE GALA</span>
+                    <h3 class="event-title">Midnight Euphoria NYE Gala</h3>
+                    <div class="event-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> The Obsidian Penthouse, Dubai</span>
+                        <span><i class="fas fa-clock"></i> 10:00 PM - 2:00 AM</span>
+                    </div>
+                    <p class="event-desc">A highly exclusive black-tie event featuring gourmet dining, premium
+                        entertainment, and breathtaking fireworks viewing.</p>
+                    <a href="contact-ultimate.html" class="btn btn-outline"
+                        style="border-radius: 50px; padding: 0.8rem 2rem;">Inquire Access <i class="fas fa-lock"
+                            style="margin-left: 10px;"></i></a>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <!-- Countdown Section -->
-    <section class="countdown-section">
-        <div class="container">
-            <h2 class="section-title">Next Event Countdown</h2>
-            <p class="section-subtitle">Get ready for our upcoming Spring Music Festival</p>
-            
+    <section class="countdown-section reveal">
+        <div class="container countdown-box">
+            <h2 class="section-title text-gradient-2">Next Major Drop</h2>
+            <p class="section-subtitle" style="color: #fff;">Countdown to Neon Pulse Electronic Festival</p>
+
             <div class="countdown-timer">
-                <div class="countdown-item">
-                    <div class="countdown-number" id="days">00</div>
-                    <div class="countdown-label">Days</div>
+                <div class="cd-item">
+                    <div class="cd-num">45</div>
+                    <div class="cd-label">Days</div>
                 </div>
-                
-                <div class="countdown-item">
-                    <div class="countdown-number" id="hours">00</div>
-                    <div class="countdown-label">Hours</div>
+                <div class="cd-item">
+                    <div class="cd-num">12</div>
+                    <div class="cd-label">Hours</div>
                 </div>
-                
-                <div class="countdown-item">
-                    <div class="countdown-number" id="minutes">00</div>
-                    <div class="countdown-label">Minutes</div>
+                <div class="cd-item">
+                    <div class="cd-num">30</div>
+                    <div class="cd-label">Mins</div>
                 </div>
-                
-                <div class="countdown-item">
-                    <div class="countdown-number" id="seconds">00</div>
-                    <div class="countdown-label">Seconds</div>
+                <div class="cd-item">
+                    <div class="cd-num">50</div>
+                    <div class="cd-label">Secs</div>
                 </div>
             </div>
-            
-            <h3 class="next-event-name">Spring Music Festival - March 15, 2024</h3>
+
+            <p style="color: var(--text-muted); font-size: 1.2rem; font-family: 'Outfit';">Tickets selling fast. Don't
+                miss out.</p>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer reveal">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <i class="fas fa-calendar-star"></i>
-                        <span>EventHub</span>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="home-ultimate.html" class="logo">
+                        <i class="fas fa-gem"></i>
+                        <span>Drax Events</span>
+                    </a>
+                    <p class="footer-desc">Setting the global standard for luxury and immersive event experiences. Let's
+                        make history together.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <p>Creating unforgettable moments and extraordinary experiences since 2010.</p>
                 </div>
-                
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                <div>
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="home-ultimate.html">Home</a></li>
+                        <li><a href="services-ultimate.html">Services</a></li>
+                        <li><a href="gallery-ultimate.html">Gallery</a></li>
+                        <li><a href="contact-ultimate.html">Contact Us</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-section">
-                    <h4>Event Types</h4>
-                    <ul>
-                        <li><a href="events.html">Corporate Events</a></li>
-                        <li><a href="events.html">Social Events</a></li>
-                        <li><a href="events.html">Concerts</a></li>
-                        <li><a href="events.html">Festivals</a></li>
-                        <li><a href="events.html">Private Parties</a></li>
+                <div>
+                    <h4 class="footer-title">Experiences</h4>
+                    <ul class="footer-links">
+                        <li><a href="events-ultimate.html">Global Summits</a></li>
+                        <li><a href="events-ultimate.html">Luxury Weddings</a></li>
+                        <li><a href="events-ultimate.html">Live Music</a></li>
+                        <li><a href="events-ultimate.html">Exclusive Galas</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-section">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe to get updates on upcoming events and exclusive offers.</p>
+                <div>
+                    <h4 class="footer-title">Stay Updated</h4>
+                    <p style="color: var(--text-muted); margin-bottom: 1rem; font-size: 0.95rem;">Join our exclusive
+                        list for VIP access and news.</p>
                     <form class="newsletter-form">
-                        <input type="email" placeholder="Your email address" required>
-                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        <input type="email" placeholder="Enter your email..." required class="newsletter-input">
+                        <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
                     </form>
                 </div>
             </div>
-            
             <div class="footer-bottom">
-                <p>&copy; 2024 EventHub. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <p>&copy; 2026 Drax Event Management. All rights reserved. | Built with elegance.</p>
             </div>
         </div>
     </footer>
+
 </body>
+
 </html>

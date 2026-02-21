@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EventHub - Home | Premier Event Management Services</title>
-    <meta name="description" content="Professional event management services for corporate, social, and special occasions. Create unforgettable experiences with EventHub.">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="home-ultimate.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>Drax Events - Premium Event Management</title>
+    <meta name="description" content="Experience extraordinary events tailored to perfection.">
+    <!-- Fonts and Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="home-ultimate.css">
+
+    <!-- JS -->
+    <script src="main.js" defer></script>
 </head>
+
 <body>
-    <!-- Header with Navigation -->
+
+    <div class="ambient-glow"></div>
+
+    <!-- Header / Navbar -->
     <header class="header">
         <nav class="navbar">
             <div class="nav-container">
-                <div class="logo">
-                    <i class="fas fa-calendar-star"></i>
-                    <span>EventHub</span>
-                </div>
+                <a href="home-ultimate.html" class="logo">
+                    <i class="fas fa-gem"></i>
+                    <span>Drax Events</span>
+                </a>
+
                 <ul class="nav-menu">
-                    <li><a href="home.html" class="nav-link active">Home</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
-                    <li><a href="events.html" class="nav-link">Events</a></li>
-                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="home-ultimate.html" class="nav-link active">Home</a></li>
+                    <li><a href="services-ultimate.html" class="nav-link">Services</a></li>
+                    <li><a href="events-ultimate.html" class="nav-link">Events</a></li>
+                    <li><a href="gallery-ultimate.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact-ultimate.html" class="nav-link">Contact</a></li>
                 </ul>
+
                 <div class="hamburger">
                     <span></span>
                     <span></span>
@@ -38,219 +48,158 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">
-                <span style="--letter-index: 0">C</span>
-                <span style="--letter-index: 1">r</span>
-                <span style="--letter-index: 2">e</span>
-                <span style="--letter-index: 3">a</span>
-                <span style="--letter-index: 4">t</span>
-                <span style="--letter-index: 5">e</span>
-                <span style="--letter-index: 6">&nbsp;</span>
-                <span style="--letter-index: 7">U</span>
-                <span style="--letter-index: 8">n</span>
-                <span style="--letter-index: 9">f</span>
-                <span style="--letter-index: 10">o</span>
-                <span style="--letter-index: 11">r</span>
-                <span style="--letter-index: 12">g</span>
-                <span style="--letter-index: 13">e</span>
-                <span style="--letter-index: 14">t</span>
-                <span style="--letter-index: 15">t</span>
-                <span style="--letter-index: 16">a</span>
-                <span style="--letter-index: 17">b</span>
-                <span style="--letter-index: 18">l</span>
-                <span style="--letter-index: 19">e</span>
-                <span style="--letter-index: 20">&nbsp;</span>
-                <span style="--letter-index: 21">E</span>
-                <span style="--letter-index: 22">v</span>
-                <span style="--letter-index: 23">e</span>
-                <span style="--letter-index: 24">n</span>
-                <span style="--letter-index: 25">t</span>
-                <span style="--letter-index: 26">s</span>
-            </h1>
-            <p class="hero-subtitle">Transform your vision into extraordinary experiences with our premier event management services</p>
-            <div class="hero-buttons">
-                <a href="contact.html" class="hero-btn hero-btn-primary">Plan Your Event</a>
-                <a href="services.html" class="hero-btn hero-btn-secondary">Our Services</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <div class="floating-card">
-                <i class="fas fa-birthday-cake"></i>
-                <span>Birthday Parties</span>
-            </div>
-            <div class="floating-card">
-                <i class="fas fa-briefcase"></i>
-                <span>Corporate Events</span>
-            </div>
-            <div class="floating-card">
-                <i class="fas fa-ring"></i>
-                <span>Weddings</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features">
+    <section class="hero reveal">
         <div class="container">
-            <h2 class="section-title">Why Choose EventHub</h2>
-            <p class="section-subtitle">We bring your dreams to life with creativity, precision, and passion</p>
-            
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Expert Team</h3>
-                    <p>Professional event planners with years of experience in creating memorable occasions.</p>
-                    <ul class="service-features">
-                        <li>Certified planners</li>
-                        <li>24/7 support</li>
-                        <li>Creative solutions</li>
-                    </ul>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3>Customized Events</h3>
-                    <p>Tailored experiences that reflect your unique style and preferences perfectly.</p>
-                    <ul class="service-features">
-                        <li>Personalized planning</li>
-                        <li>Unique themes</li>
-                        <li>Attention to detail</li>
-                    </ul>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Stress-Free Process</h3>
-                    <p>From concept to execution, we handle every detail so you can relax.</p>
-                    <ul class="service-features">
-                        <li>Full coordination</li>
-                        <li>Vendor management</li>
-                        <li>On-site support</li>
-                    </ul>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3>Passionate Service</h3>
-                    <p>We pour our hearts into every event, ensuring exceptional results every time.</p>
-                    <ul class="service-features">
-                        <li>Dedicated team</li>
-                        <li>Creative vision</li>
-                        <li>Quality focus</li>
-                    </ul>
+            <div class="hero-content">
+                <span class="hero-subtitle-top"><i class="fas fa-star" style="margin-right: 8px;"></i> Designing the
+                    Future of Events</span>
+                <h1 class="hero-title">Experience the <span class="text-gradient">Extraordinary</span> Like Never
+                    Before.</h1>
+                <p class="hero-desc">Elevate your brand and personal milestones with meticulously crafted events that
+                    redefine luxury, innovation, and unforgettable memories.</p>
+                <div class="hero-actions">
+                    <a href="services-ultimate.html" class="btn btn-primary btn-glow">Discover Our Services <i
+                            class="fas fa-arrow-right" style="margin-left:8px;"></i></a>
+                    <a href="gallery-ultimate.html" class="btn btn-outline">View Gallery</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Stats Section -->
-    <section class="stats">
+    <!-- About Section -->
+    <section class="about-section container reveal">
+        <div class="about-images">
+            <img src="./assets/images/wedding_event.png" alt="Wedding Excellence" class="about-img-1">
+            <img src="./assets/images/corporate_app_event.png" alt="Corporate Innovation" class="about-img-2">
+        </div>
+        <div class="about-content">
+            <h2 class="section-title">Mastering The Art of <span class="text-gradient-2">Celebration</span></h2>
+            <p class="section-subtitle" style="margin-left: 0; text-align: left;">For over a decade, we have been
+                crafting immersive environments that captivate audiences and exceed expectations. At Drax Events, we
+                merge breathtaking aesthetics with flawless execution.</p>
+
+            <div class="about-features">
+                <div class="feat-item"><i class="fas fa-check-circle"></i> High-End Venues</div>
+                <div class="feat-item"><i class="fas fa-check-circle"></i> Neon & Cinematic Lighting</div>
+                <div class="feat-item"><i class="fas fa-check-circle"></i> Immersive Sound Design</div>
+                <div class="feat-item"><i class="fas fa-check-circle"></i> Flawless Execution</div>
+            </div>
+
+            <a href="contact-ultimate.html" class="btn btn-outline" style="margin-top: 2rem;">Read Our Story</a>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-section reveal">
         <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-calendar-check"></i>
-                    </div>
-                    <div class="stat-number">500+</div>
-                    <div class="stat-label">Events Completed</div>
+            <div class="section-head">
+                <h2 class="section-title">Bespoke <span class="text-gradient">Experiences</span></h2>
+                <p class="section-subtitle">Categorized event productions tailored to your unique requirements.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-user-tie"></i></div>
+                    <h3>Corporate Summits</h3>
+                    <p>Advanced tech conferences with cutting-edge LED stages, premium networking zones, and modern
+                        setups.</p>
+                    <a href="services-ultimate.html" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
                 </div>
-                
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-smile"></i>
-                    </div>
-                    <div class="stat-number">50,000+</div>
-                    <div class="stat-label">Happy Clients</div>
+
+                <!-- Service 2 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-rings-wedding"></i></div>
+                    <h3>Luxury Weddings</h3>
+                    <p>Cinematic, elegant ceremonies featuring breathtaking mood lighting and hyper-romantic
+                        atmospheres.</p>
+                    <a href="services-ultimate.html" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
                 </div>
-                
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <div class="stat-number">15</div>
-                    <div class="stat-label">Years Experience</div>
-                </div>
-                
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <div class="stat-number">100+</div>
-                    <div class="stat-label">Cities Served</div>
+
+                <!-- Service 3 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-music"></i></div>
+                    <h3>Live Concerts</h3>
+                    <p>Epic stage performances with intense neon lasers, massive crowds, and top-tier sound engineering.
+                    </p>
+                    <a href="services-ultimate.html" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Create Your Perfect Event?</h2>
-                <p>Let's turn your vision into an unforgettable experience that will leave your guests talking for years to come.</p>
-                <a href="contact.html" class="cta-btn">Start Planning Today</a>
-            </div>
+    <!-- Call To Action -->
+    <section class="cta-section reveal">
+        <div class="container cta-box">
+            <h2>Ready To Ignite The Night?</h2>
+            <p>Our expert producers are standing by to transform your vision into reality. Step into the next generation
+                of event management.</p>
+            <a href="contact-ultimate.html" class="btn btn-primary btn-glow"
+                style="font-size: 1.2rem; padding: 1.2rem 3rem;">Start Your Project <i class="fas fa-rocket"
+                    style="margin-left: 10px;"></i></a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer reveal">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <i class="fas fa-calendar-star"></i>
-                        <span>EventHub</span>
+            <div class="footer-grid">
+                <!-- Brand Info -->
+                <div class="footer-brand">
+                    <a href="home-ultimate.html" class="logo">
+                        <i class="fas fa-gem"></i>
+                        <span>Drax Events</span>
+                    </a>
+                    <p class="footer-desc">Setting the global standard for luxury and immersive event experiences. Let's
+                        make history together.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
                     </div>
-                    <p>Creating unforgettable moments and extraordinary experiences since 2010.</p>
                 </div>
-                
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="home-ultimate.html">Home</a></li>
+                        <li><a href="services-ultimate.html">Services</a></li>
+                        <li><a href="gallery-ultimate.html">Our Gallery</a></li>
+                        <li><a href="contact-ultimate.html">Contact Us</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="services.html">Corporate Events</a></li>
-                        <li><a href="services.html">Weddings</a></li>
-                        <li><a href="services.html">Social Events</a></li>
-                        <li><a href="services.html">Concerts</a></li>
-                        <li><a href="services.html">Theme Parties</a></li>
+
+                <!-- Event Types -->
+                <div>
+                    <h4 class="footer-title">Experiences</h4>
+                    <ul class="footer-links">
+                        <li><a href="events-ultimate.html">Corporate Events</a></li>
+                        <li><a href="events-ultimate.html">Luxury Weddings</a></li>
+                        <li><a href="events-ultimate.html">Music Festivals</a></li>
+                        <li><a href="events-ultimate.html">Private Galas</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-section">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe to get updates on upcoming events and exclusive offers.</p>
+
+                <!-- Newsletter -->
+                <div>
+                    <h4 class="footer-title">Stay Updated</h4>
+                    <p style="color: var(--text-muted); margin-bottom: 1rem; font-size: 0.95rem;">Join our exclusive
+                        list for VIP access and news.</p>
                     <form class="newsletter-form">
-                        <input type="email" placeholder="Your email address" required>
-                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        <input type="email" placeholder="Enter your email..." required class="newsletter-input">
+                        <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
                     </form>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
-                <p>&copy; 2024 EventHub. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <p>&copy; 2026 Drax Event Management. All rights reserved. | Built with elegance.</p>
             </div>
         </div>
     </footer>
+
 </body>
+
 </html>
