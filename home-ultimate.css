@@ -60,7 +60,7 @@
 .services-section {
     position: relative;
     background: url('./assets/images/hero_bg.png') center/cover fixed;
-    /* Using same bg with heavier dark overlay */
+
 }
 
 .services-section::before {
